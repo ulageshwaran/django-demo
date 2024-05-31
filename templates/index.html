@@ -51,8 +51,9 @@
                                 <th scope="col">Last Name</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Field of Study</th>
-                                <th scope="col">Fees Status</th>
-                                <th scope="col">Actions</th>
+                                <th scope="col">Course ID</th>
+                                <th scope="col">Fees Paid</th>
+                                <th scope="col">Balance Fees</th>
                               </tr>
                               <tbody>
                                 {% for students in student %}
@@ -62,6 +63,7 @@
                                       <td>{{ students.last_name }}</td>
                                       <td>{{ students.email }}</td>
                                       <td>{{ students.feild_of_study }}</td>
+                                      <td>{{ students.course_id }}</td>
                                       <td>{{ students.Fees_status }}</td>
                                       <td>
                                       </td>

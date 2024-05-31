@@ -3,7 +3,7 @@ from django.contrib.auth import get_user_model
 # Create your models here.
 
 class course(models.Model):
-    course_id = models.IntegerField()
+    course_id = models.PositiveIntegerField()
     course_name = models.CharField(max_length=100)
     course_fee = models.IntegerField()
 
